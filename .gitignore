@@ -1,0 +1,123 @@
+# ─────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env_dir/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# ─────────────────────────────────────────────────────────────
+# Node.js / Next.js
+# ─────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Build outputs
+dist/
+build/
+
+# ─────────────────────────────────────────────────────────────
+# Environment / Secrets  ← never commit these
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+!.env.local.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─────────────────────────────────────────────────────────────
+# OS / Editor
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ─────────────────────────────────────────────────────────────
+# Media files (can be large; store in MinIO / S3 instead)
+# ─────────────────────────────────────────────────────────────
+*.mp3
+*.mp4
+*.webm
+*.wav
+*.ogg
+*.flac
+*.m4a
+*.avi
+*.mov
+*.mkv
+
+# ─────────────────────────────────────────────────────────────
+# Docker
+# ─────────────────────────────────────────────────────────────
+.dockerignore
+
+# ─────────────────────────────────────────────────────────────
+# Alembic
+# ─────────────────────────────────────────────────────────────
+backend/alembic/versions/__pycache__/
+
+# ─────────────────────────────────────────────────────────────
+# Misc
+# ─────────────────────────────────────────────────────────────
+*.log
+*.pid
+*.seed
+*.lock
+!poetry.lock
+!package-lock.json
+celerybeat-schedule
+celerybeat.pid
